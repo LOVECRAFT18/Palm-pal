@@ -1,0 +1,1 @@
+const chatService = { sendMessage: (message) => { console.log('Message sent:', message); }, receiveMessage: (callback) => { console.log('Message received'); callback(); } }; export default chatService;

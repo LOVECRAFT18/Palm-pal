@@ -1,0 +1,1 @@
+import React from 'react'; import { View, Text } from 'react-native'; const AvatarComponent = ({ avatar }) => ( <View><Text>{avatar}</Text></View> ); export default AvatarComponent;

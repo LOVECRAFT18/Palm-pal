@@ -1,0 +1,1 @@
+import React from 'react'; import { View, Text } from 'react-native'; const MessageBubble = ({ message }) => ( <View><Text>{message}</Text></View> ); export default MessageBubble;
